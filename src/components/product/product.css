@@ -12,7 +12,7 @@
 
 .project-desc {
   padding: 10px;
-  min-height: 740px;
+  min-height: 480px;
 }
 
 .project-desc-min {
@@ -97,7 +97,7 @@
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .p {
     height: 50vh;
     margin: 10px auto;
