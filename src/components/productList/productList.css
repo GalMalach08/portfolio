@@ -8,7 +8,7 @@
 }
 
 .pl-texts {
-  width: 65%;
+  width: 85%;
 }
 
 .pl-title {
@@ -38,9 +38,9 @@
     width: 100%;
   }
 
-  .pl-desc {
+  /* .pl-desc {
     display: none;
-  }
+  } */
 
   .pl-list {
     flex-direction: column;

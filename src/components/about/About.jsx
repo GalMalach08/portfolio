@@ -1,4 +1,5 @@
 import "./about.css";
+import AboutImg from "../../img/about.png";
 
 const About = () => {
   return (
@@ -6,11 +7,7 @@ const About = () => {
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
-          <img
-            src="https://res.cloudinary.com/malachcloud/image/upload/v1658840943/photo-1551033406-611cf9a28f67_yaxndc.avif"
-            alt=""
-            className="a-img"
-          />
+          <img src={AboutImg} alt="" className="a-img" />
         </div>
       </div>
       <div className="a-right">

@@ -7,12 +7,17 @@
   margin: 20px 0px;
   transition: box-shadow .3s;
   height: auto;
+  /* height: 780px; */
 }
 
 .project-desc {
   padding: 10px;
-  min-height: 424px;
+  min-height: 740px;
+}
 
+.project-desc-min {
+  padding: 10px;
+  min-height: 400px;
 }
 
 .project-div:hover {
@@ -103,20 +108,25 @@
   }
 
   .p-img {
-    transition: all 5s ease;
+    transition: none
   }
 
   .p:hover .p-img {
-    transform: translateY(-45%);
+    transform: none
   }
 
-  .p:hover .p-img-easy {
+  .project-desc {
+    padding: 10px;
+    min-height: 400px;
+  }
+
+  /* .p:hover .p-img-easy {
     transform: translateY(-60%);
   }
 
   .p:hover .p-img-chat {
     transform: translateY(-65%);
-  }
+  } */
 
   .p-img-small {
     transition: none;

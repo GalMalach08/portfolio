@@ -11,8 +11,8 @@ export const products = [
       "Filtered search",
       "Account verifcation by email",
     ],
-    img:
-      "https://res.cloudinary.com/malachcloud/image/upload/v1658770010/easyrent_qd68lg.png",
+    img: "easy.png",
+
     link: "https://easyrent2023.herokuapp.com/",
   },
   {
@@ -26,8 +26,8 @@ export const products = [
       "Notifications - If messages have been sent to you and you are connected but not in the specific chat, or not connected at all, notifications wiil be sent and appear at the top of the chat",
       "Live update if the user you are chatting with is typing",
     ],
-    img:
-      "https://res.cloudinary.com/malachcloud/image/upload/v1658771042/screencapture-talk-a-tive-2022-herokuapp-chats-2022-07-25-20_43_02_zjpjod.png",
+    img: "chat.png",
+
     link: "https://talk-a-tive-2022.herokuapp.com/",
   },
   {
@@ -40,8 +40,7 @@ export const products = [
       "Build shopping cart",
       "The system knows how to identify previous purchases that have not ended and let the user continue with them",
     ],
-    img:
-      "https://res.cloudinary.com/malachcloud/image/upload/v1658836352/screencapture-laughing-johnson-d68122-netlify-app-products-5-2022-07-26-14_52_16_toc0rx.png",
+    img: "shopping.png",
     link: "https://laughing-johnson-d68122.netlify.app/",
   },
 
@@ -56,8 +55,8 @@ export const products = [
       "Identifying words that are not in the database",
       "Identifying each letter and comparing it to the corresponding letter in the selected word",
     ],
-    img:
-      "https://res.cloudinary.com/malachcloud/image/upload/v1658825506/screencapture-beautiful-cocada-ee32a7-netlify-app-2022-07-26-11_51_12_imvslb.png",
+    img: "wordle.png",
+
     link: "https://beautiful-cocada-ee32a7.netlify.app/",
   },
 ];

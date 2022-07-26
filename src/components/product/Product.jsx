@@ -13,7 +13,9 @@ const Product = ({ item: { img, link, id, title, desc, features } }) => {
         rel="noreferrer"
         style={{ textDecoration: "none", color: darkMode ? "white" : "#222" }}
       >
-        <div className="project-desc">
+        <div
+          className={id === 2 || id === 4 ? "project-desc-min" : "project-desc"}
+        >
           <h1 className="project-title">{title}</h1>
           <p className="project-content">{desc}</p>
           <div className="project-features">
@@ -35,7 +37,7 @@ const Product = ({ item: { img, link, id, title, desc, features } }) => {
             <div className="p-circle"></div>
           </div>
           <img
-            src={img}
+            src={require(`../../img/${img}`)}
             alt=""
             className={
               id === 1
