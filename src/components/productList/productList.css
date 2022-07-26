@@ -12,7 +12,7 @@
 }
 
 .pl-title {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
 }
 
@@ -45,4 +45,10 @@
   .pl-list {
     flex-direction: column;
   }
+
+  .pl-title {
+    font-size: 30px;
+
+  }
+
 }

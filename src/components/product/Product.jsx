@@ -13,10 +13,7 @@ const Product = ({ item: { img, link, id, title, desc, features } }) => {
         rel="noreferrer"
         style={{ textDecoration: "none", color: darkMode ? "white" : "#222" }}
       >
-        <div
-          className="project-desc"
-          style={{ minHeight: id === 2 && "385px" }}
-        >
+        <div className="project-desc">
           <h1 className="project-title">{title}</h1>
           <p className="project-content">{desc}</p>
           <div className="project-features">

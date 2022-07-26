@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import "./App.css";
 import Intro from "./components/intro/Intro";
 import About from "./components/about/About";
@@ -11,12 +12,15 @@ function App() {
   const {
     state: { darkMode },
   } = useAppContext();
+
+  useEffect(() => {
+    document.body.style.backgroundColor = darkMode ? "#222" : "white";
+  }, [darkMode]);
+
   return (
     <div
       style={{
-        backgroundColor: darkMode ? "#222" : "white",
         color: darkMode ? "white" : "#222",
-        padding: "0px",
       }}
     >
       <Toggle />
