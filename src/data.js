@@ -46,7 +46,7 @@ export const products = [
 
   {
     id: 4,
-    title: "wordle",
+    title: "Wordle",
     desc: `The famous Wordle game. On the App you have 6 guesses each time to guess a selected 5-letter word.
               If the letter you guessed is in the selected word in the same place the letter will be colored green. If the letter present but not in the same place it will be
               colored orange and if it is not present at all it will be colored gray.

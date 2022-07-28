@@ -21,6 +21,7 @@ function App() {
     <div
       style={{
         color: darkMode ? "white" : "#222",
+        padding: "20px",
       }}
     >
       <Toggle />

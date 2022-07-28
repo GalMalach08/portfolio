@@ -59,7 +59,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="c">
+    <div className="c mt-3">
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">

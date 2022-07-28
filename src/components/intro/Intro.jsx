@@ -19,7 +19,7 @@ const Intro = () => {
           </div>
           <p className="i-desc">
             Hello everyone, welcome to my portfolio. This portfolio is built in
-            React and designed responsively with pure css.
+            React and designed responsively with Css and React Bootstrap.
           </p>
         </div>
       </div>

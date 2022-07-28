@@ -1,57 +1,47 @@
-import { useAppContext } from "../../context";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 import "./product.css";
 
 const Product = ({ item: { img, link, id, title, desc, features } }) => {
-  const {
-    state: { darkMode },
-  } = useAppContext();
   return (
-    <div className="project-div">
-      <a
-        href={link}
-        target="_blank"
-        rel="noreferrer"
-        style={{ textDecoration: "none", color: darkMode ? "white" : "#222" }}
-      >
-        <div
-          className={id === 2 || id === 4 ? "project-desc-min" : "project-desc"}
-        >
-          <h1 className="project-title">{title}</h1>
-          <p className="project-content">{desc}</p>
-          <div className="project-features">
-            <h4 className="project-features-title">Main Features :</h4>
+    <Card className="product_card mx-6 my-4" bg="light">
+      <div className="p">
+        <div className="p-browser">
+          <div className="p-circle"></div>
+          <div className="p-circle"></div>
+          <div className="p-circle"></div>
+        </div>
+        <Card.Img
+          src={require(`../../img/${img}`)}
+          alt=""
+          className={`p-img
+               ${id === 4 && "p-img p-img-small"}`}
+        />{" "}
+      </div>
+      <Card.Body className="p-4 product_body">
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>
+          <div className="product_desc">{desc}</div>
+          <div className="product_feat">
+            <h5 className="project-features-title">Main Features :</h5>
 
             <ul className="features-list">
               {features &&
                 features.map((feature) => (
-                  <li className="features-list-item">{feature}</li>
+                  <li key={feature} className="features-list-item">
+                    {feature}
+                  </li>
                 ))}
             </ul>
           </div>
-        </div>
-
-        <div className="p">
-          <div className="p-browser">
-            <div className="p-circle"></div>
-            <div className="p-circle"></div>
-            <div className="p-circle"></div>
-          </div>
-          <img
-            src={require(`../../img/${img}`)}
-            alt=""
-            className={
-              id === 1
-                ? "p-img p-img-easy"
-                : id === 2
-                ? "p-img p-img-shopping"
-                : id === 3
-                ? "p-img p-img-chat"
-                : "p-img p-img-small"
-            }
-          />
-        </div>
-      </a>
-    </div>
+        </Card.Text>
+        <a href={link} target="_blank" rel="noreferrer">
+          <Button className="visit_btn" variant="outline-success">
+            Visit App
+          </Button>
+        </a>
+      </Card.Body>
+    </Card>
   );
 };
 

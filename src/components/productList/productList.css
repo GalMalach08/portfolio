@@ -1,14 +1,12 @@
-.pl {
-  margin-top: 30px;
-  padding: 50px 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+.products_container {
+  margin-top: 86px;
+  padding: 20px 40px;
 }
 
-.pl-texts {
-  width: 85%;
+.pl-text {
+  width: 75%;
+  text-align: center;
+  margin: auto;
 }
 
 .pl-title {
@@ -34,13 +32,15 @@
     padding: 10px;
   }
 
-  .pl-texts {
+  .pl-text {
     width: 100%;
+
   }
 
-  /* .pl-desc {
-    display: none;
-  } */
+  .products_container {
+    margin-top: 30px;
+  }
+
 
   .pl-list {
     flex-direction: column;

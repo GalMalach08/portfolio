@@ -13,16 +13,17 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          24 years old, Graduate Full-Stack Course at John Bryce Institute. 669
-          unit veteran combat operator and commander. Experienced in project and
-          schedule management, highly motivated to learn and develop.
+          Graduate Full-Stack Course at John Bryce Institute. 669 unit veteran
+          combat operator and commander. Experienced in project and schedule
+          management, has high independent learning ability ,highly motivated to
+          learn and develop.
         </p>
         <p className="a-desc">
           During the course I worked in a small team of programmers that was
           involved in building web applications for startup companies. In
           addition, I gave private lessons to some of the students of the
-          course. I finished the course with honors and now I am looking for my
-          next challenge to prove myself.
+          course. I finished the course with the highest grades in the class and
+          now I am looking for my next challenge to prove myself.
         </p>
       </div>
     </div>
