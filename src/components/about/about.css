@@ -1,6 +1,7 @@
 .a {
   display: flex;
-  /* align-items: center; */
+  padding: 20px 40px;
+
 }
 
 .a-left {
@@ -84,6 +85,8 @@
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
+    padding: 20px;
+
   }
 
   .a-left {
@@ -100,12 +103,14 @@
     margin-top: 30px;
   }
 
+
+
   .a-card.bg, .a-award {
     display: none;
   }
 
   .a-right {
-    width: 90%;
+    width: 100%;
   }
 
   .a-title {

@@ -4,7 +4,7 @@ import { products } from "../../data";
 import { Container, Row, Col } from "react-bootstrap";
 const ProductList = () => {
   return (
-    <Container fluid className=" products_container">
+    <Container fluid className="products_container">
       <div className="pl-text">
         <Row>
           <h1 className="pl-title">My Projects</h1>

@@ -15,7 +15,8 @@ const About = () => {
         <p className="a-sub">
           Graduate Full-Stack Course at John Bryce Institute. 669 unit veteran
           combat operator and commander. Experienced in project and schedule
-          management, has high independent learning ability ,highly motivated to
+          management. I have a high independent learning ability, ability to
+          solve problems and think outside the box. I'm highly motivated to
           learn and develop.
         </p>
         <p className="a-desc">
