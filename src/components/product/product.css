@@ -1,6 +1,7 @@
 .product_card {
   color: black;
   height: 790px !important;
+  border-radius: 10px;
 }
 
 .project-desc {
@@ -57,7 +58,7 @@
 
 .p {
   border: 2px solid rgb(243, 242, 242);
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 10px;
   overflow: hidden;
   height: 50vh;
 }
@@ -70,6 +71,7 @@
   align-items: center;
   position: sticky;
   z-index: 2;
+
 }
 
 .p-circle {

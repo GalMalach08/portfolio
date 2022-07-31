@@ -1,4 +1,4 @@
-.t{
+.t {
     width: 50px;
     height: 25px;
     border-radius: 20px;
@@ -6,7 +6,7 @@
     background-color: white;
     position: fixed;
     top: 10px;
-    right: 10px;
+    left: 10px;
     z-index: 999;
     display: flex;
     align-items: center;
@@ -15,12 +15,12 @@
 
 }
 
-.t-icon{
+.t-icon {
     width: 15px;
     height: 15px;
 }
 
-.t-button{
+.t-button {
     width: 25px;
     height: 25px;
     border-radius: 50%;
