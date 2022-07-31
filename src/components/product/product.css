@@ -15,7 +15,6 @@
 
 .product_card:hover {
   box-shadow: 0px -5px 10px 0px grey;
-  cursor: pointer;
 }
 
 .project-content {
