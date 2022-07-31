@@ -26,7 +26,7 @@ export const products = [
       "Notifications - If messages have been sent to you and you are connected but not in the specific chat, or not connected at all, notifications wiil be sent and appear at the top of the chat",
       "Live update if the user you are chatting with is typing",
     ],
-    img: "chat.png",
+    img: "chatapp.png",
 
     link: "https://talk-a-tive-2022.herokuapp.com/",
   },

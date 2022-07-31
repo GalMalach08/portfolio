@@ -94,7 +94,11 @@
 
 
 .p:hover .p-img {
-  transform: translateY(-70%);
+  transform: translateY(-65%);
+}
+
+.p:hover .p-img-shopping {
+  transform: translateY(-50%);
 }
 
 .p-img-small {

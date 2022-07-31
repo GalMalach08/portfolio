@@ -15,7 +15,7 @@ const Product = ({ item: { img, link, id, title, desc, features } }) => {
           src={require(`../../img/${img}`)}
           alt=""
           className={`p-img
-               ${id === 4 && "p-img p-img-small"}`}
+               ${id === 4 ? "p-img-small" : id === 2 ? "p-img-shopping" : ""}`}
         />{" "}
       </div>
       <Card.Body className="p-4 product_body">
