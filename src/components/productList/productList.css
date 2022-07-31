@@ -33,12 +33,6 @@
     padding: 10px;
   }
 
-  .pl-text {
-    width: 100%;
-
-  }
-
-
   .products_container {
     margin-top: 30px;
   }
@@ -52,5 +46,15 @@
     font-size: 30px;
 
   }
+
+}
+
+@media screen and (max-width: 890px) {
+
+  .pl-text {
+    width: 100%;
+
+  }
+
 
 }

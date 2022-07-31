@@ -22,6 +22,7 @@
   padding: 50px;
   display: flex;
   flex-direction: column;
+
 }
 
 .i-intro {
@@ -58,7 +59,7 @@
 
 .i-title-item {
   height: 50px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: #59b256;
   display: flex;
@@ -88,7 +89,16 @@
   right: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 950px) {
+
+  .i-desc {
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 850px) {
   .i {
     flex-direction: column;
     height: 50vh;
@@ -103,9 +113,6 @@
     height: 100%;
   }
 
-  .i-desc {
-    display: none;
-  }
 
 
   .i-bg {
