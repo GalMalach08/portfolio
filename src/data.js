@@ -3,7 +3,7 @@ export const products = [
     id: 1,
     title: "EasyRent",
     desc:
-      "The subject of the project is renting apartments. On the App you can register and view a selection of apartments. An apartment owner? You can upload an apartment to the site and after approval by the manager it will be shown to all users.",
+      "The topic of the project is renting apartments. On the App you can register and view a selection of apartments. An apartment owner? You can upload an apartment to the site and after approval by the manager it will be shown to all users.",
     features: [
       "2 languages app(hebrew and english)",
       "Chatbot that save user prefrences, the system knows to recognize when relvant apartments upload and send am email to the user",
@@ -19,7 +19,7 @@ export const products = [
     id: 3,
     title: "ChatApp",
     desc:
-      "The subject of the project is Live chat. On the App you can register, Search and add users to start a chat with them. The app is built with with socket io, so if the 2 users are connected you can chat LIVE.",
+      "The topic of the project is Live chat. On the App you can register, Search and add users to start a chat with them. The app is built with with socket io, so if the 2 users are connected you can chat LIVE.",
     features: [
       "Opening chat groups with multiple users",
       "You will be able to know whether the user is connected to the app or not",
@@ -34,7 +34,7 @@ export const products = [
     id: 2,
     title: "ShoppingApp",
     desc:
-      "The subject of the project is Online shopping. On the App you can register and view a selection of products divided into categories. You can build yourself a diverse shopping basket and place an order to your home.",
+      "The topic of the project is Online shopping. On the App you can register and view a selection of products divided into categories. You can build yourself a diverse shopping basket and place an order to your home.",
     features: [
       "Product search",
       "Build shopping cart",

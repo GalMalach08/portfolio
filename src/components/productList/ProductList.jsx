@@ -9,12 +9,12 @@ const ProductList = () => {
         <Row>
           <h1 className="pl-title">My Projects</h1>
           <p className="pl-desc">
-            I built three of the four projects independently, and one as part of
-            the course. The projects are build with React(redux) on the client
-            side, NodeJs(express) on the server side and MongoDB(atlas) is the
-            data base. I believe that by building projects, you go through a
-            learning process that is important in order to develop into an
-            independent and experienced developer.
+            Three of the four projects were developed independently, and one as
+            part of the course. The projects technologies are React(Redux state
+            mangement) on the client side, NodeJs(express) on the server side
+            and MongoDB(atlas) is the data base. I believe that by developing
+            projects, you go through a learning process that is important in
+            order to become an independent and experienced developer.
           </p>
         </Row>
       </div>
