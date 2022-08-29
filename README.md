@@ -3,7 +3,7 @@ Hello everyone, this is a React application that display my portfolio.
 I invite you to take a look, I would love to hear any comments.
 
 ### Tech Stack
-**Client** : React.js,
+**Client** : React.js
 
 ### Installation
 1. #### Click here for the deploying version https://dulcet-rabanadas-4b5b1d.netlify.app/
